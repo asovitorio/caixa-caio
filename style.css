@@ -175,7 +175,8 @@ button {
 }
 
 #cartao {
-    background-color: #585858;
+    /* background-color: #585858; */
+    background-color: #bf0089;
 }
 
 #dinheiro {
