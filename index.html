@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+    <title>Caixa - Mercado</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="titulo">Caixa - Caio Place</h1>
+        <div class="entrada-dados">
+            <div class="lista-compras">
+                <table>
+                    <thead>
+                        <tr class="table-head">
+                            <th>Codigo</th>
+                            <th>Descrição</th>
+                            <th>qtd</th>
+                            <th>valor</th>
+                            <th>sub-total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela">
+                    </tbody>
+
+                </table>
+
+            </div>
+            <div class="entradas-valores">
+                <div class="codigo-barra">
+                    <span>Produto</span>
+
+                    <input id="codigo" type="text" placeholder="digite o codigo do produto">
+                </div>
+                <div class="forma-pagamento">
+                    <span>Forma de Pagamento</span>
+
+                    <div class="forma-input">
+
+                        <input id="" type="number" placeholder="digite o valor pago">
+                    </div>
+
+                    <div class="forma-botao">
+                        <button id="cartao">Cartão</button>
+                        <button id="dinheiro">Dinheiro</button>
+                    </div>
+
+                    <div class="forma-troco">
+                        <span>Troco</span>
+                        <h2>R$ 0,00</h2>
+                    </div>
+                </div>
+                <div class="total-pagamento">
+
+                    <span>Total</span>
+                    <h1 id="total-pagar"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script type="module" src="./caixa.js"></script>
+
+</body>
+
+</html>
